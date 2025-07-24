@@ -22,14 +22,20 @@ body {
     width: 105px;
     border-radius: 15px;
     cursor: pointer;
-
+    transition: 0.2s;
 }
 .btn {
+    
     display:flexbox;
     flex-direction:row-reverse;
     justify-self: center;
     transform: translateY(-50px);
 
+}
+.btn1:hover {
+    color:antiquewhite;
+    background-color:lightslategray;
+    border-color: antiquewhite;
 }
 
 #headline {
